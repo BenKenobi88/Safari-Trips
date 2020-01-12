@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_1 {
+    height: 37px;
+    background: #e8491d;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.dark {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    margin: 0;
+    padding-top: 0;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+    text-transform: uppercase;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .different, header .different2 a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #d8a8a8;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 400px;
+    background: url(main.jpg) no-repeat center -10px; /*prčiti backrogorun image, repeat center*/
+    text-align: center;
+    color: #ffffff;
+
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#newsletter {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+}
+
+#newsletter input {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+    margin: 30px;
+    text-decoration: none;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+#boxes .box {
+float: left;
+text-align: center;
+width: 30%;
+box-sizing: border-box;
+}
+
+#boxes .box img {
+    width: 150px;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .question input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+article#headline {
+    float: left;
+    width: 65%;
+}
+
+ul#offers li {
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+footer {
+    padding: 5px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: rgb(41, 11, 11);
+    text-align: center;
+}
